@@ -1,0 +1,17 @@
+{
+  "name": "vat",
+  "version": "1.0.0",
+  "main": "vat.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Arturo Mora-Rioja (amri@kea.dk)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^29.4.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
