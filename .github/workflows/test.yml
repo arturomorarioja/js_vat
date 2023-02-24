@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install npm
-      run: npm
+      run: npm install
     - name: Run Jest unit tests
       run: npm test
