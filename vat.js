@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * Calculates a monetary amount as the result of adding its VAT tax
+ * @param {*} amount    Monetary amount
+ * @param {*} vat       VAT percentage. By default, 25% (Denmark)
+ * @returns             The resulting monetary amount
+ */
 const calculateVAT = (amount, vat = 25) => {
     if (typeof amount !== 'number') {
         return 0;
