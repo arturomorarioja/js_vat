@@ -14,8 +14,7 @@ describe('calculateVAT with default VAT passes', () => {
 
     const vatData = [
         {'amount': 0, 'expected': 0},
-        {'amount': 1000, 'expected': 1251},
-        // {'amount': 1000, 'expected': 1250},
+        {'amount': 1000, 'expected': 1250},
         {'amount': 10000, 'expected': 12500},
         {'amount': 1425.26, 'expected': 1781.575},
     ];
