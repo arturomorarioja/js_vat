@@ -1,0 +1,11 @@
+name: Continuous Integration
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install npm
+      run: npm install
+    - name: Run Jest unit tests
+      run: npm test
