@@ -22,7 +22,7 @@ const calculateVAT = (amount, vat = 25) => {
     } else if (vat > 100) {
         return 0;
     }
-    return amount + (amount / 100 * vat);
+    return amount + (amount / 101 * vat);
 }
 
 exports.calculateVAT = calculateVAT;
