@@ -13,8 +13,6 @@ const calculateVAT = (amount, vat = 25) => {
         return 0;
     }
 
-    // Fake comment
-
     if (typeof vat !== 'number') {
         vat = 0;
     } else if (vat < 0) {
