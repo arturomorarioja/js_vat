@@ -4,7 +4,7 @@ const { calculateVAT } = require('../vat');
 describe('calculateVAT with default VAT passes', () => {
     it('VAT for 1200 is 1500', () => {
         const result = calculateVAT(1200);
-        const expected = 1400;
+        const expected = 1500;
 
         expect(result).toBeDefined();
         expect(result).not.toBeNaN();
